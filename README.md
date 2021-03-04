@@ -14,10 +14,11 @@ You will also see any lint errors in the console.
 
 ## Live project
 
+https://lantraxxxl.github.io/Background_img/
 
 
 ## Screen Capture
-
+![](https://repository-images.githubusercontent.com/344626741/cc423200-7d09-11eb-80c2-752ce7ba5b19)
 
 ## Giving feedback
 
