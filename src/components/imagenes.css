@@ -1,0 +1,113 @@
+.cont_gral{
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 30px;
+    column-count: 4;
+}
+.cont_gral .cont_item{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cont_gral .cont_item .cont_img{    
+    display: block;
+    width: 100%;
+}
+.cont_gral .cont_img > img{
+    display: block;
+    width: 100%;
+}
+.cont_gral .cont_item .cont_footer{
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(to top, black, transparent);
+    height: 60px;
+    width: 100%;
+    bottom: -61px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #E5EDF0;
+    transition: all .4s ease;
+}
+.cont_item:hover .cont_footer{
+    bottom: 0px;
+}
+.cont_gral .cont_item .cont_footer >div {
+    max-width: 50%;
+}
+.cont_footer .use_img{
+    display: inline-flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.cont_footer .use_img img{
+    display: inline-flex;
+    height: 50%;
+    align-self: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.cont_footer .social_img,
+.cont_footer .social_img > div{
+    display: inline-flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.cont_footer .social_img > div:first-child{
+    margin-right: 10px;
+}
+.cont_footer .social_img span{
+    display: inline-flex;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    margin: 0 5px;
+    
+}
+.cont_footer .social_img span svg{
+    display: block;
+    height: 100%;
+    fill: #FFF;
+    
+}
+@media (max-width: 1300px){
+    .cont_gral{
+        column-count: 3;
+    }
+}
+@media (max-width: 1015px){
+    .cont_gral{
+        column-count: 2;
+    }
+}
+@media (max-width: 750px){
+    
+}
+@media (max-width: 600px){
+    .cont_gral{
+        column-count: 1;
+        padding: 0 10px;
+    }
+    .cont_item .cont_footer{
+        bottom: 0 !important;
+    }
+}
+  
+@media (max-width: 450px){
+
+}
+@media (max-width: 380px){
+   
+}
+@media (max-width: 320px){
+    
+}
